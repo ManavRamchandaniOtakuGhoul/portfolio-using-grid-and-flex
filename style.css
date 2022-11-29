@@ -1,0 +1,582 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  padding: 0 60px;
+  color: white;
+  background-color: #002ed0;
+  /* none */
+}
+/*  */
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 820px;
+}
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.column-left h1 {
+  font-size: 90px;
+}
+
+.column-left p {
+  font-size: 16px;
+  line-height: 2.3;
+}
+
+.column-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-img {
+  height: 100%;
+  width: 100%;
+}
+
+/* <!-- ------------------------------------------------------main section Done------------------------------------------- -->
+
+    <!-- ------------------------------------------------------About section------------------------------------------- --> */
+
+.about-section {
+  background-color: #002ed0;
+  padding: 60px;
+  color: white;
+  /* none */
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.about-container h1 {
+  font-size: 110px;
+  color: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  margin-bottom: 28px;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 700px;
+}
+
+.about-text h2 {
+  padding-right: 20px;
+}
+.about-text h2 {
+  font-size: 48px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+
+.about-text p {
+  line-height: 2.3;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+}
+
+.about-img img {
+  width: 420px;
+  height: 610px;
+}
+
+/* <!-- ------------------------------------------------------About section completed------------------------------------------- --> */
+
+/* <!-- ------------------------------------------------------Service section------------------------------------------- --> */
+
+.service {
+  background-color: #002ed0;
+  color: white;
+  position: relative;
+  /* none */
+}
+
+.service h1 {
+  font-size: 48px;
+  padding-top: 60px;
+}
+
+.service-container {
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 60px;
+}
+
+.service-container h1 {
+  font-size: 50px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 700px;
+}
+
+.services-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 50px;
+}
+
+.service-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.service-content img {
+  margin-right: 50px;
+}
+
+.service-desc h2 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.service-desc p {
+  line-height: 2;
+}
+
+.macbook {
+  height: 700px;
+  width: 100%;
+}
+
+/* <!-- ------------------------------------------------------Service section completd------------------------------------------- --> */
+
+/* ---------------------email yellow----------------------------------------------- */
+.email-yellow-box {
+  position: absolute;
+  height: 80px;
+  bottom: -40px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: black;
+  background-color: yellow;
+  justify-content: flex-start;
+  right: 0;
+}
+
+.email-yellow-box img {
+  margin: 0 40px;
+}
+
+.email-yellow-box p {
+  font-weight: 700;
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+/* -------------------------------------email-yellow completed-------------------------------- */
+
+/* -------------------------------------portfolio section-------------------------------- */
+
+.portfolio {
+  background-color: #002ed0;
+  color: white;
+}
+
+.portfolio-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 60px;
+}
+
+.portfolio-container h1 {
+  font-size: 110px;
+  color: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  margin-bottom: 28px;
+}
+
+.main-portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.portfolio-left img {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-right {
+  padding: 150px 100px 0 20px;
+}
+
+.portfolio-right h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.portfolio-right p {
+  line-height: 2.2;
+  margin-bottom: 40px;
+}
+.portfolio-right a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 32px 64px;
+}
+
+.projects img {
+  padding: 0 8px;
+  width: 100%;
+  height: 100%;
+}
+
+/* -------------------------------------portfolio section completed-------------------------------- */
+
+/* ---------------------------------------------------------- contact--------------------------------------------------------------- */
+
+.contact {
+  background-color: #002ed0;
+  color: white;
+}
+
+.contact-bar {
+  height: 160px;
+  width: 100%;
+  display: flex;
+}
+
+.contact-bar-yellow-box {
+  height: 80px;
+  flex-basis: 70%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: black;
+  background-color: yellow;
+  justify-content: flex-start;
+}
+
+.h-container {
+  display: flex;
+  height: 80px;
+  flex-basis: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-container h1 {
+  font-size: 40px;
+}
+
+.contact-bar-yellow-box img {
+  margin: 0 40px;
+}
+
+.contact-bar-yellow-box p {
+  font-weight: 700;
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+/* ---------------------------------------------------------- contact COMPLETED--------------------------------------------------------------- */
+
+/* ---------------------------------------------------------- FOOTER --------------------------------------------------------------- */
+
+footer {
+  background-color: #0030db;
+  color: white;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 60px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-left h2 {
+  padding-bottom: 24px;
+}
+
+.footer-left p {
+  line-height: 2;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-right a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+/* ---------------------------------------------------------- FOOTER --------------------------------------------------------------- */
+
+/* -------------------------------credit completed-------------------------------------------- */
+
+.creadit-container {
+  background-color: yellow;
+  width: 100%;
+}
+
+.creadit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.creadit p {
+  padding-top: 10px;
+  color: black;
+  font-weight: 100;
+}
+
+.contact-link {
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.contact-link a {
+  color: #0030db;
+  font-size: 1.3rem;
+}
+
+/* -------------------------------credit completed-------------------------------------------- */
+
+/* <!-- ------------------------------------------------------respnsive------------------------------------------- --> */
+@media screen and (max-width: 1100px) {
+  .main-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .main-img {
+    padding: 30px;
+  }
+
+  .column-left h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .main-wrapper {
+    grid-template-rows: 700px;
+  }
+
+  .column-left h1 {
+    font-size: 32px;
+  }
+}
+
+/*     <!-- ------------------------------------------------------About section responsive------------------------------------------- --> */
+
+@media screen and (max-width: 1000px) {
+  .about-section {
+    padding: 30px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .about-img img {
+    margin-top: 40px;
+  }
+
+  .about-container h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .about-text h2 {
+    font-size: 32px;
+  }
+
+  .about-img img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*     <!-- ------------------------------------------------------About section responsive completed------------------------------------------- --> */
+
+/*     <!-- ------------------------------------------------------Service section responsive------------------------------------------- --> */
+
+@media screen and (max-width: 768px) {
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .macbook {
+    display: none;
+  }
+
+  .email-yellow-box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .service-container {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 16px;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 900px;
+  }
+
+  .service-container h1 {
+    margin-bottom: 160px;
+    text-align: center;
+  }
+
+  .services-left {
+    padding: 0 24px;
+  }
+
+  .service-content {
+    margin-top: 40px;
+  }
+
+  .macbook {
+    display: none;
+  }
+
+  .email-yellow-box p {
+    margin-right: 20px;
+  }
+}
+
+/*     <!-- ------------------------------------------------------Service section responsive completed------------------------------------------- --> */
+
+/* ----------------------------------------------------------_Responsive Portfolio--------------------------------------------------------------- */
+
+@media screen and (max-width: 1300px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .portfolio-container h1 {
+    font-size: 70px;
+  }
+
+  .portfolio-container {
+    padding-left: 0;
+  }
+
+  .main-portfolio {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio {
+    padding: 30px;
+  }
+
+  .portfolio-right {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 468px) {
+  .portfolio {
+    padding: 10px;
+  }
+
+  .portfolio-container h1 {
+    font-size: 40px;
+  }
+}
+
+/* ----------------------------------------------------------_Responsive Portfolio completed--------------------------------------------------------------- */
+
+/* ----------------------------------------------------------_Responsive contact--------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  .contact {
+    padding-bottom: 100px;
+  }
+
+  .contact-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .h-container {
+    flex-basis: 50%;
+  }
+
+  .contact-bar-yellow-box {
+    flex-basis: 50%;
+  }
+  .h-container h1 {
+    font-size: 32px;
+  }
+}
+/* ----------------------------------------------------------_Responsive contact completed--------------------------------------------------------------- */
+
+/* ----------------------------------------------------------_Responsive footer--------------------------------------------------------------- */
+@media screen and (max-width: 1000px) {
+  .footer-container {
+    padding-left: 20px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .footer-right {
+    padding: 0 10px;
+  }
+}
+/* ----------------------------------------------------------_Responsive footer completd--------------------------------------------------------------- */
